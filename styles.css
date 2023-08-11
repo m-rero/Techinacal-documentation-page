@@ -1,0 +1,84 @@
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    color: #4d4e53;
+}
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  color: black;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+  /* The navigation menu links */
+.sidenav a {
+padding: 10px 20px;
+text-decoration: none;
+font-size: 16px;
+color: rgb(46, 46, 46);
+display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+/* Style page content */
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+section {
+  border: 1px;
+  border-color: #111;
+}
+.main header {
+  font-size: 03ch;
+  font-weight: 200;
+}
+section li {
+  margin: 15px 0px 0px 20px;
+}
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.sidenav header {
+  font-size: 03ch;
+  font-weight: 200;
+  padding: 16px;
+}
